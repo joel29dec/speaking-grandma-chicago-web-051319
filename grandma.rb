@@ -14,7 +14,7 @@
 require 'pry'
 def speak_to_grandma(hello)
   if hello !== hello.upcase
-    binding.pry
+    pry.binding
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
